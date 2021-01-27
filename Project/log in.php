@@ -8,6 +8,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>Log in</title>
 <link href="School.css" rel="stylesheet" type="text/css">
+  <style> 
+	input[type=text] {
+	width: 10%;
+	}
+	form {
+	margin: 0;
+	padding: 1em 0;
+	border: 3px solid black;
+
+}
+</style>
 </head>
 
 <body>
@@ -25,6 +36,7 @@
     </ul>
   </nav>
 </header>
+<center>
 <div class="signup-form">
     <form action="login.php" method="post" enctype="multipart/form-data">
 		<h2>Login</h2>
@@ -41,6 +53,7 @@
         <div class="text-center">Don't have an account? <a href="Sign up.php">Register Here</a></div>
     </form>
 </div>
+</center>
 <footer> @ Copyright C Heuva JSS, 2021 </footer>
 </body>
 </html>

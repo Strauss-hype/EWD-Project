@@ -2,6 +2,7 @@
 <html>
 <head>
 <title>Contact</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="School.css" rel="stylesheet" type="text/css">
 </head>
 

@@ -5,6 +5,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>Sign Up</title>
 <link href="School.css" rel="stylesheet" type="text/css">
+  <style> 
+	input[type=text] {
+	width: 10%;
+	}
+	form {
+	margin: 0;
+	padding: 1em 0;
+	border: 3px solid black;
+
+}
+</style>
 <body>
 <header> <img src="https://wallpapercave.com/wp/wp5016555.jpg" class="profile-img">
   <nav>
@@ -20,6 +31,7 @@
     </ul>
   </nav>
 </header>
+<center>
 <div class="signup-form">
     <form action="Sign.php" method="post" enctype="multipart/form-data">
 		<h2>Sign Up</h2>
@@ -49,6 +61,7 @@
     </form>
 	
 </div>
+</center>
 <footer> @ Copyright C Heuva JSS, 2021 </footer>
 </body>
 </html>

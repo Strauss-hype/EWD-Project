@@ -2,7 +2,19 @@
 <html>
 <head>
 <title>Admission</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="School.css" rel="stylesheet" type="text/css">
+  <style> 
+	input[type=text] {
+	width: 10%;
+	}
+	form {
+	margin: 0;
+	padding: 1em 0;
+	border: 3px solid black;
+
+}
+</style>
 </head>
 
 <body>
@@ -21,11 +33,37 @@
   </nav>
 </header>
 <main>
-  <section id="Education">
+  <section id="Admission">
     <div class="section-inner"> <img src="https://www.niche.com/blog/wp-content/uploads/2019/06/grad-school-applications-1200-1200x794.jpg" class="profile-img">
+	
       <h2>Admission</h2>
-  </section>
+<center>
+	<h1>Application Form</h1>
+<body>
+	<form action="Process.php" method="POST">
+	<p>ID/Passport Number: 
+	<input type = "text" name= "id"></p>
+	<p>First name: 
+	<input type = "text" name= "fname"></p>
+	<p>Last name: 
+	<input type = "text" name= "lname"></p>
+	<p>Email: 
+	<input type = "text" name= "email"></p>
+	<p>Cellphone/ Telephone Number: 
+	<input type = "int" name= "number"></p>
+	<p>Department: 
+	<input type = "text" name= "department"></p>
+	<p>Course: 
+	<input type = "text" name= "course"></p>
+	<input type="submit" name="submit" value="Submit">
+	</form>
+</body>
+ </center> 
+ </section>
 </main>
 <footer> @ Copyright C Heuva JSS, 2021 </footer>
 </body>
 </html>
+
+
+
